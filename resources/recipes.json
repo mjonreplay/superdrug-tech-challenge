@@ -1,0 +1,67 @@
+{
+    "recipes" : [
+        {
+            "name" : "Lemon Tea",
+            "steps" : [
+                {
+                    "step" : "Boil some water",
+                    "optional" : false
+                },
+                {
+                    "step" : "Steep the water in the tea",
+                    "optional" : false
+                },
+                {
+                    "step" : "Pour tea in the cup",
+                    "optional" : false
+                },
+                {
+                    "step" : "Add lemon",
+                    "optional" : true
+                }
+            ]
+        },
+        {
+            "name" : "Coffee",
+            "steps" : [
+                {
+                    "step" : "Boil some water",
+                    "optional" : false
+                },
+                {
+                    "step" : "Brew the coffee grounds",
+                    "optional" : false
+                },
+                {
+                    "step" : "Pour coffee in the cup",
+                    "optional" : false
+                },
+                {
+                    "step" : "Add sugar",
+                    "optional" : true
+                },
+                {
+                    "step" : "Add milk",
+                    "optional" : true
+                }
+            ]
+        },
+        {
+            "name" : "Hot Chocolate",
+            "steps" : [
+                {
+                    "step" : "Boil some water",
+                    "optional" : false
+                },
+                {
+                    "step" : "Add drinking chocolate powder to the water",
+                    "optional" : false
+                },
+                {
+                    "step" : "Pour chocolate in the cup",
+                    "optional" : false
+                }
+            ]
+        }
+    ]
+}
