@@ -1,6 +1,6 @@
 {
   "name": "superdrugchallenge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Superdrug Front End Technical Challenge",
   "main": "index.js",
   "scripts": {
