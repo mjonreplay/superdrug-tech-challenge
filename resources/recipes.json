@@ -4,20 +4,24 @@
             "name" : "Lemon Tea",
             "steps" : [
                 {
-                    "step" : "Boil some water",
-                    "optional" : false
+                    "name" : "Boil some water",
+                    "optional" : false,
+                    "duration" : 12
                 },
                 {
-                    "step" : "Steep the water in the tea",
-                    "optional" : false
+                    "name" : "Steep the water in the tea",
+                    "optional" : false,
+                    "duration" : 3
                 },
                 {
-                    "step" : "Pour tea in the cup",
-                    "optional" : false
+                    "name" : "Pour tea in the cup",
+                    "optional" : false,
+                    "duration" : 6
                 },
                 {
-                    "step" : "Add lemon",
-                    "optional" : true
+                    "name" : "Add lemon",
+                    "optional" : true,
+                    "duration" : 3
                 }
             ]
         },
@@ -25,24 +29,29 @@
             "name" : "Coffee",
             "steps" : [
                 {
-                    "step" : "Boil some water",
-                    "optional" : false
+                    "name" : "Boil some water",
+                    "optional" : false,
+                    "duration" : 12
                 },
                 {
-                    "step" : "Brew the coffee grounds",
-                    "optional" : false
+                    "name" : "Brew the coffee grounds",
+                    "optional" : false,
+                    "duration" : 6
                 },
                 {
-                    "step" : "Pour coffee in the cup",
-                    "optional" : false
+                    "name" : "Pour coffee in the cup",
+                    "optional" : false,
+                    "duration" : 5
                 },
                 {
-                    "step" : "Add sugar",
-                    "optional" : true
+                    "name" : "Add sugar",
+                    "optional" : true,
+                    "duration" : 3
                 },
                 {
-                    "step" : "Add milk",
-                    "optional" : true
+                    "name" : "Add milk",
+                    "optional" : true,
+                    "duration" : 3
                 }
             ]
         },
@@ -50,16 +59,19 @@
             "name" : "Hot Chocolate",
             "steps" : [
                 {
-                    "step" : "Boil some water",
-                    "optional" : false
+                    "name" : "Boil some water",
+                    "optional" : false,
+                    "duration" : 12
                 },
                 {
-                    "step" : "Add drinking chocolate powder to the water",
-                    "optional" : false
+                    "name" : "Add drinking chocolate powder to the water",
+                    "optional" : false,
+                    "duration" : 3
                 },
                 {
-                    "step" : "Pour chocolate in the cup",
-                    "optional" : false
+                    "name" : "Pour chocolate in the cup",
+                    "optional" : false,
+                    "duration" : 5
                 }
             ]
         }
