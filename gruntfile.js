@@ -1,19 +1,15 @@
-module.exports = function(grunt){
-    "use strict";
-
-    grunt.loadNpmTasks('grunt-babel');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-
+module.exports = function(grunt) {
     grunt.initConfig({
         babel: {
-            options: {
-                sourceMap: true
+        options: {
+            sourceMap: true,
+            presets: ["@babel/preset-env"],
+        },
+        dist: {
+            files: {
+                "scripts/dist/main.js": "scripts/es6/main.js"
             },
-            dist: {
-                files: {
-                    "scripts/dist/main.js": "scripts/es6/main.js"
-                }
-            }
+        },
         },
         watch: {
             dev: {
@@ -23,6 +19,9 @@ module.exports = function(grunt){
         },
     });
 
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-babel');
+
     grunt.registerTask('watcher', 'watch:dev');
     grunt.registerTask("default", ["babel"]);
-}
+};
