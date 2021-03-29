@@ -88,7 +88,7 @@ html, body {
 #sd-wrapper #sd-container #sd-btn-interface .sd-btn-primary.disabled {
     color: #555555;
     box-shadow: 0px 0px 1px #9ecaed;
-    border: 0px solid #9ecaed;
+    border: 3px solid #555555;
     pointer-events: none;
     cursor: not-allowed;
 }
