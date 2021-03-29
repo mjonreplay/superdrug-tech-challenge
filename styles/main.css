@@ -1,0 +1,121 @@
+/* Global */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Wrapper & Containers */
+
+#sd-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#sd-wrapper #sd-container {
+    text-align: center;
+    position: relative;
+    display: block;
+
+    width: 94%;
+    max-width: 750px;
+    min-height: 400px;
+    margin: 0px auto;
+    padding: 3%;
+    
+    top: 50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+
+    background-color: #232323;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #9ecaed;
+    border: 3px solid #9ecaed;
+    color: #ffffff;
+}
+
+#sd-wrapper #sd-container h1 {
+    color: #9ecaed;
+    text-shadow: 0px 0px 20px #9ecaed;
+    position: relative;
+    
+}
+#sd-wrapper #sd-container h1:after {
+    content: "";
+    filter: brightness(0) sepia(0) hue-rotate(0deg) saturate(0);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/90/Coffee-2346113.svg);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    bottom: -14px;
+}
+
+/* Display */
+
+#sd-wrapper #sd-container #sd-display {
+    min-height: 175px;
+}
+
+#sd-wrapper #sd-container #sd-btn-interface {
+
+}
+
+#sd-wrapper #sd-container #sd-btn-interface .sd-btn-primary {
+    box-shadow: 0px 0px 5px #9ecaed;
+    border: 3px solid #9ecaed;
+    background-color: black;
+    color: #9ecaed;
+    width: 250px;
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#sd-wrapper #sd-container #sd-btn-interface .sd-btn-primary.disabled {
+    color: #555555;
+    box-shadow: 0px 0px 1px #9ecaed;
+    border: 0px solid #9ecaed;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+/* Progress Bar */
+
+#sd-progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #9ecaed;
+    box-shadow: 0px 0px 5px #9ecaed;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+    position: relative;
+}
+
+
+#sd-progress-bar.active {
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    #sd-wrapper #sd-container {
+        max-width: 92%;
+    }
+
+    #sd-wrapper #sd-container h1:after {
+        display: none;
+    }
+}
