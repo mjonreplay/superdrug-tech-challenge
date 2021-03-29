@@ -4,22 +4,22 @@
             "name" : "Lemon Tea",
             "steps" : [
                 {
-                    "name" : "Boil some water",
+                    "name" : "Boiling water",
                     "optional" : false,
                     "duration" : 12
                 },
                 {
-                    "name" : "Steep the water in the tea",
+                    "name" : "Steeping the water in the tea",
                     "optional" : false,
                     "duration" : 3
                 },
                 {
-                    "name" : "Pour tea in the cup",
+                    "name" : "Pouring the tea in the cup",
                     "optional" : false,
                     "duration" : 6
                 },
                 {
-                    "name" : "Add lemon",
+                    "name" : "Adding lemon",
                     "optional" : true,
                     "duration" : 3
                 }
@@ -29,27 +29,27 @@
             "name" : "Coffee",
             "steps" : [
                 {
-                    "name" : "Boil some water",
+                    "name" : "Boiling water",
                     "optional" : false,
                     "duration" : 12
                 },
                 {
-                    "name" : "Brew the coffee grounds",
+                    "name" : "Brewing the coffee grounds",
                     "optional" : false,
                     "duration" : 6
                 },
                 {
-                    "name" : "Pour coffee in the cup",
+                    "name" : "Pouring coffee in the cup",
                     "optional" : false,
                     "duration" : 5
                 },
                 {
-                    "name" : "Add sugar",
+                    "name" : "Adding sugar",
                     "optional" : true,
                     "duration" : 3
                 },
                 {
-                    "name" : "Add milk",
+                    "name" : "Adding milk",
                     "optional" : true,
                     "duration" : 3
                 }
@@ -59,17 +59,17 @@
             "name" : "Hot Chocolate",
             "steps" : [
                 {
-                    "name" : "Boil some water",
+                    "name" : "Boiling some water",
                     "optional" : false,
                     "duration" : 12
                 },
                 {
-                    "name" : "Add drinking chocolate powder to the water",
+                    "name" : "Adding drinking chocolate powder to the water",
                     "optional" : false,
                     "duration" : 3
                 },
                 {
-                    "name" : "Pour chocolate in the cup",
+                    "name" : "Pouring chocolate in the cup",
                     "optional" : false,
                     "duration" : 5
                 }
