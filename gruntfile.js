@@ -1,15 +1,15 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         babel: {
-        options: {
-            sourceMap: true,
-            presets: ["@babel/preset-env"],
-        },
-        dist: {
-            files: {
-                "scripts/dist/main.js": "scripts/es6/main.js"
+            options: {
+                sourceMap: true,
+                presets: ["@babel/preset-env"],
             },
-        },
+            dist: {
+                files: {
+                    "scripts/dist/main.js": "scripts/es6/main.js"
+                },
+            },
         },
         watch: {
             dev: {
