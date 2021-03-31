@@ -1,6 +1,5 @@
 
-## Superdrug Front End Technical Challenge
-# Superdrug Front-End Technical Challenge -  Matthew Jackson
+## Superdrug Front-End Technical Challenge -  Matthew Jackson
 
 This is a hot drinks machine for the Superdrug Front End Technical Challenge
 
