@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mjonreplay/superdrug-tech-challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Superdrug Front End Technical Challenge
+# Superdrug Front-End Technical Challenge -  Matthew Jackson
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a hot drinks machine for the Superdrug Front End Technical Challenge
 
-### Markdown
+The primary goal of this exercise is to assess how you reason about your ability to write well defined HTML, CSS and Javascript using the latest patterns and technologies.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You are required to model the operation of a hot drinks machine. Based on the selection of a customer you will be required to make a drink according to a recipe for each choice.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mjonreplay/superdrug-tech-challenge/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Notes
+ - Design based on a really rough hot drinks selection touch screen interface.
+ - CSS without pre-processor (unclear if this was allowed i.e. SASS, LESS)
+ - Step durations may be non realistic and sped up for development.
+ - Prefer sugar / milk to be an optional added step?
+ - Used grunt for this task but use gulp more often.
+ - Used github for this task but use bitbucket more often.
+ - There are many areas that could be extended / improved if more time is granted.
